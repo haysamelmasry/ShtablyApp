@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAA2CF01E465AD900AA385E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA2CEF1E465AD900AA385E /* AppDelegate.swift */; };
+		CEAA2CF21E465AD900AA385E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA2CF11E465AD900AA385E /* MasterViewController.swift */; };
+		CEAA2CF41E465AD900AA385E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA2CF31E465AD900AA385E /* DetailViewController.swift */; };
+		CEAA2CF71E465AD900AA385E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAA2CF51E465AD900AA385E /* Main.storyboard */; };
+		CEAA2CF91E465AD900AA385E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAA2CF81E465AD900AA385E /* Assets.xcassets */; };
+		CEAA2CFC1E465AD900AA385E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAA2CFA1E465AD900AA385E /* LaunchScreen.storyboard */; };
+		CEAA2D071E465AD900AA385E /* haysam_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA2D061E465AD900AA385E /* haysam_testTests.swift */; };
+		CEAA2D121E465AD900AA385E /* haysam_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA2D111E465AD900AA385E /* haysam_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAA2D031E465AD900AA385E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAA2CE41E465AD900AA385E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAA2CEB1E465AD900AA385E;
+			remoteInfo = "haysam test";
+		};
+		CEAA2D0E1E465AD900AA385E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAA2CE41E465AD900AA385E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAA2CEB1E465AD900AA385E;
+			remoteInfo = "haysam test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAA2CEC1E465AD900AA385E /* haysam test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "haysam test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAA2CEF1E465AD900AA385E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAA2CF11E465AD900AA385E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CEAA2CF31E465AD900AA385E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEAA2CF61E465AD900AA385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAA2CF81E465AD900AA385E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAA2CFB1E465AD900AA385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAA2CFD1E465AD900AA385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAA2D021E465AD900AA385E /* haysam testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haysam testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAA2D061E465AD900AA385E /* haysam_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haysam_testTests.swift; sourceTree = "<group>"; };
+		CEAA2D081E465AD900AA385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAA2D0D1E465AD900AA385E /* haysam testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "haysam testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAA2D111E465AD900AA385E /* haysam_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haysam_testUITests.swift; sourceTree = "<group>"; };
+		CEAA2D131E465AD900AA385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAA2CE91E465AD900AA385E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2CFF1E465AD900AA385E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2D0A1E465AD900AA385E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAA2CE31E465AD800AA385E = {
+			isa = PBXGroup;
+			children = (
+				CEAA2CEE1E465AD900AA385E /* haysam test */,
+				CEAA2D051E465AD900AA385E /* haysam testTests */,
+				CEAA2D101E465AD900AA385E /* haysam testUITests */,
+				CEAA2CED1E465AD900AA385E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAA2CED1E465AD900AA385E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA2CEC1E465AD900AA385E /* haysam test.app */,
+				CEAA2D021E465AD900AA385E /* haysam testTests.xctest */,
+				CEAA2D0D1E465AD900AA385E /* haysam testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAA2CEE1E465AD900AA385E /* haysam test */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA2CEF1E465AD900AA385E /* AppDelegate.swift */,
+				CEAA2CF11E465AD900AA385E /* MasterViewController.swift */,
+				CEAA2CF31E465AD900AA385E /* DetailViewController.swift */,
+				CEAA2CF51E465AD900AA385E /* Main.storyboard */,
+				CEAA2CF81E465AD900AA385E /* Assets.xcassets */,
+				CEAA2CFA1E465AD900AA385E /* LaunchScreen.storyboard */,
+				CEAA2CFD1E465AD900AA385E /* Info.plist */,
+			);
+			path = "haysam test";
+			sourceTree = "<group>";
+		};
+		CEAA2D051E465AD900AA385E /* haysam testTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA2D061E465AD900AA385E /* haysam_testTests.swift */,
+				CEAA2D081E465AD900AA385E /* Info.plist */,
+			);
+			path = "haysam testTests";
+			sourceTree = "<group>";
+		};
+		CEAA2D101E465AD900AA385E /* haysam testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA2D111E465AD900AA385E /* haysam_testUITests.swift */,
+				CEAA2D131E465AD900AA385E /* Info.plist */,
+			);
+			path = "haysam testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAA2CEB1E465AD900AA385E /* haysam test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAA2D161E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam test" */;
+			buildPhases = (
+				CEAA2CE81E465AD900AA385E /* Sources */,
+				CEAA2CE91E465AD900AA385E /* Frameworks */,
+				CEAA2CEA1E465AD900AA385E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "haysam test";
+			productName = "haysam test";
+			productReference = CEAA2CEC1E465AD900AA385E /* haysam test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAA2D011E465AD900AA385E /* haysam testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAA2D191E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam testTests" */;
+			buildPhases = (
+				CEAA2CFE1E465AD900AA385E /* Sources */,
+				CEAA2CFF1E465AD900AA385E /* Frameworks */,
+				CEAA2D001E465AD900AA385E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAA2D041E465AD900AA385E /* PBXTargetDependency */,
+			);
+			name = "haysam testTests";
+			productName = "haysam testTests";
+			productReference = CEAA2D021E465AD900AA385E /* haysam testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAA2D0C1E465AD900AA385E /* haysam testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAA2D1C1E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam testUITests" */;
+			buildPhases = (
+				CEAA2D091E465AD900AA385E /* Sources */,
+				CEAA2D0A1E465AD900AA385E /* Frameworks */,
+				CEAA2D0B1E465AD900AA385E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAA2D0F1E465AD900AA385E /* PBXTargetDependency */,
+			);
+			name = "haysam testUITests";
+			productName = "haysam testUITests";
+			productReference = CEAA2D0D1E465AD900AA385E /* haysam testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAA2CE41E465AD900AA385E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EGCD;
+				TargetAttributes = {
+					CEAA2CEB1E465AD900AA385E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CEAA2D011E465AD900AA385E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEAA2CEB1E465AD900AA385E;
+					};
+					CEAA2D0C1E465AD900AA385E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEAA2CEB1E465AD900AA385E;
+					};
+				};
+			};
+			buildConfigurationList = CEAA2CE71E465AD900AA385E /* Build configuration list for PBXProject "haysam test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAA2CE31E465AD800AA385E;
+			productRefGroup = CEAA2CED1E465AD900AA385E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAA2CEB1E465AD900AA385E /* haysam test */,
+				CEAA2D011E465AD900AA385E /* haysam testTests */,
+				CEAA2D0C1E465AD900AA385E /* haysam testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAA2CEA1E465AD900AA385E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA2CFC1E465AD900AA385E /* LaunchScreen.storyboard in Resources */,
+				CEAA2CF91E465AD900AA385E /* Assets.xcassets in Resources */,
+				CEAA2CF71E465AD900AA385E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2D001E465AD900AA385E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2D0B1E465AD900AA385E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAA2CE81E465AD900AA385E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA2CF41E465AD900AA385E /* DetailViewController.swift in Sources */,
+				CEAA2CF21E465AD900AA385E /* MasterViewController.swift in Sources */,
+				CEAA2CF01E465AD900AA385E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2CFE1E465AD900AA385E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA2D071E465AD900AA385E /* haysam_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAA2D091E465AD900AA385E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA2D121E465AD900AA385E /* haysam_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAA2D041E465AD900AA385E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAA2CEB1E465AD900AA385E /* haysam test */;
+			targetProxy = CEAA2D031E465AD900AA385E /* PBXContainerItemProxy */;
+		};
+		CEAA2D0F1E465AD900AA385E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAA2CEB1E465AD900AA385E /* haysam test */;
+			targetProxy = CEAA2D0E1E465AD900AA385E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAA2CF51E465AD900AA385E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAA2CF61E465AD900AA385E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAA2CFA1E465AD900AA385E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAA2CFB1E465AD900AA385E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAA2D141E465AD900AA385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAA2D151E465AD900AA385E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAA2D171E465AD900AA385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "haysam test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEAA2D181E465AD900AA385E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "haysam test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEAA2D1A1E465AD900AA385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "haysam testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haysam test.app/haysam test";
+			};
+			name = Debug;
+		};
+		CEAA2D1B1E465AD900AA385E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "haysam testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/haysam test.app/haysam test";
+			};
+			name = Release;
+		};
+		CEAA2D1D1E465AD900AA385E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "haysam testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "haysam test";
+			};
+			name = Debug;
+		};
+		CEAA2D1E1E465AD900AA385E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "haysam testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.egcd2.haysam-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "haysam test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAA2CE71E465AD900AA385E /* Build configuration list for PBXProject "haysam test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAA2D141E465AD900AA385E /* Debug */,
+				CEAA2D151E465AD900AA385E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAA2D161E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAA2D171E465AD900AA385E /* Debug */,
+				CEAA2D181E465AD900AA385E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAA2D191E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAA2D1A1E465AD900AA385E /* Debug */,
+				CEAA2D1B1E465AD900AA385E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAA2D1C1E465AD900AA385E /* Build configuration list for PBXNativeTarget "haysam testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAA2D1D1E465AD900AA385E /* Debug */,
+				CEAA2D1E1E465AD900AA385E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAA2CE41E465AD900AA385E /* Project object */;
+}
